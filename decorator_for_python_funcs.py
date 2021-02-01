@@ -1,6 +1,3 @@
-import datetime, re
-
-
 def profile(wrapped_func):
     '''
     simple decorator to profile functions, using .
@@ -43,7 +40,9 @@ def profile(wrapped_func):
 def do_stuff():
     '''
         Does critical stuff
-    '''    
+    '''
+    import datetime, re
+    
     def get_square(i):
         return i ** 2
 
