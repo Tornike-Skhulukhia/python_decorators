@@ -1,6 +1,6 @@
 def profile(wrapped_func):
     '''
-    simple decorator to profile functions, using .
+    simple decorator to profile functions, using Cprofile.
     usage:
         write @profile before function definition(decorate it with this function),
         after that use it to see results.
